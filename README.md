@@ -38,8 +38,8 @@ for Tomcat
 ```
 http://localhost:8080/reducer/reducedPageNumbers?rawPageNumbers=<List of numbers>
 ```
-2. <List of numbers> - String that contain only numbers separeted by commas without spaces
+2. List of numbers - String that contain only numbers separeted by commas without spaces
 3. Application return response with HTTP Status Code = 400 (Bad Request) with the corresponding message if:
-- <List of numbers> contains other symbols
-- <List of numbers> contains the same numbers in different places
-- <List of numbers> is not assigned (null or empty)
+- List of numbers contains other symbols
+- List of numbers contains the same numbers in different places
+- List of numbers is not assigned (null or empty)
